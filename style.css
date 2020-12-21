@@ -1,0 +1,89 @@
+body {
+	background: rgb(35, 35, 35);
+}
+
+textarea {
+	width: 75%;
+	height: 55px;
+	resize: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	margin: auto;
+}
+
+.BoxContainer {
+	min-width: 300px;
+	min-height: 400px;
+	padding: 1px;
+	margin: 1px;
+	width: 30%;
+	height: 400px;
+	background-color: rgb(22, 21, 21);
+	border-radius: 25px;
+}
+
+.Banner {
+	min-width: 300px;
+	padding: 1px;
+	margin: 1px;
+	width: 30%;
+	height: 40px;
+	background-color: transparent;
+	border-radius: 25px;
+}
+
+.Banner h1 {
+	color: white;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+}
+
+.button {
+	background-color: rgb(255, 187, 0);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-top: 25px;
+	width: 75%;
+	font-family: 'Abel', sans-serif;
+	border-radius: 5px;
+}
+
+button:active {
+	border-style: outset;
+}
+
+.button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+h1 {
+	color: white;
+}
+
+h7 {
+	color: white;
+}
+
+.Title {
+	font-family: 'JetBrains Mono', monospace;
+	color: white;
+	font-size: 50px;
+}
+
+.Title_small {
+	font-family: 'JetBrains Mono', monospace;
+	color: rgb(255, 187, 0);
+	font-size: 40px;
+}
